@@ -22,8 +22,8 @@
     self.comboBox1.maxRows = 3;
     self.comboBox1.delegate = self;
     
-    THComboBox *comboBox1 = [[THComboBox alloc] initWithFrame:CGRectMake(200, 400, 210, 60)];
-    comboBox1.listItems = @[@"ob-c",@"java",@"c#",@"c++"];
+    THComboBox *comboBox1 = [[THComboBox alloc] initWithFrame:CGRectMake(200, 150, 210, 60)];
+    comboBox1.listItems = @[@"ob-c",@"java",@"c#",@"c++",@"Nineteen Hundred Eighty Four"];
     comboBox1.borderColor = [UIColor greenColor];
     comboBox1.borderWidth = 2.0f;
     comboBox1.cornerRadius = 10.0f;
